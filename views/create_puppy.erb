@@ -1,9 +1,26 @@
-<form method="post" action="/puppy">
-  <label for="name"> Puppy Name</label>
-  <input type="text" id="name" name="name">
-  <label for="breed"> Puppy Breed</label>
-  <input type="text" id="breed" name="breed">
-  <label for="age"> Puppy Age</label>
-  <input type="text" id="age" name="age">
-  <input type="submit" value="submit">
-</form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puppy Adoption Service</title>
+  </head>
+  <body>
+    <form method="post" action="/new">
+      <h1>Let us know about your puppy!</>
+      <br>
+      </br>
+      <div>
+        <label for="name"> Puppy Name: </label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="breed"> Puppy Breed: </label>
+        <input type="text" id="breed" name="breed">
+      </div>
+      <div>
+      <label for="months_old"> Puppy Age in Months: </label>
+      <input type="text" id="months_old" name="months_old">
+      </div>
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
